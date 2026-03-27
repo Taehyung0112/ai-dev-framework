@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.env
+.env.local
+node_modules/
+
+# Agent working documents (task-scoped, not for version control)
+.agents/working/

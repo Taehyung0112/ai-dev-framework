@@ -1,0 +1,12 @@
+# Normalise line endings to LF in the repository (cross-platform safe).
+# Prevents LF→CRLF conversion warnings on Windows Git Bash.
+* text=auto eol=lf
+
+# Shell scripts must always be LF — CRLF breaks bash shebang parsing.
+bin/claude-team text eol=lf
+
+# Markdown and plaintext: LF only.
+*.md text eol=lf
+
+# JSON: LF only.
+*.json text eol=lf
